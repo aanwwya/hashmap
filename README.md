@@ -185,3 +185,5 @@ this keeps the implementation small and makes the hashmap behavior easy to see, 
 a distributed implementation could move the state into something like redis, but that would introduce another layer of networking, consistency, and concurrency concerns.
 
 for this project, the in-memory approach is intentional. the point is to understand the data structure and the system built around it rather than hide the core logic behind an external datastore.
+
+this is a learning project for me, built to understand how hashmaps behave when they're used as part of a real system.
